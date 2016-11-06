@@ -4,3 +4,6 @@ just a fun quick project using the unsplash api to show the latest 10 images in 
 
 
 /docs is the build folder
+
+
+I only get 50 refreshes per API key until they approve my application to use more.
