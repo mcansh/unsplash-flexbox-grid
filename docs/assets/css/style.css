@@ -63,8 +63,7 @@ nav {
     align-items: center;
     position: relative; }
     .unsplash-image-wrapper .unsplash-image:hover .photo-info {
-      height: 100%;
-      width: 100%;
+      transform: scale(1);
       visibility: visible; }
     .unsplash-image-wrapper .unsplash-image .photo-info {
       color: white;
@@ -72,14 +71,14 @@ nav {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 70%;
-      width: 70%;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.7);
       visibility: hidden;
       transition: 300ms all ease-in-out;
       background: rgba(0, 0, 0, 0.4); }
       .unsplash-image-wrapper .unsplash-image .photo-info.visible {
-        height: 100%;
-        width: 100%;
+        transform: scale(1);
         visibility: visible; }
       .unsplash-image-wrapper .unsplash-image .photo-info .view {
         margin-top: 50px; }

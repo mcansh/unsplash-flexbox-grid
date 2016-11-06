@@ -63,7 +63,7 @@ nav
     position: relative
     &:hover
       .photo-info
-        +size(100%)
+        transform: scale(1)
         visibility: visible
     .photo-info
       color: white
@@ -71,12 +71,13 @@ nav
       justify-content: center
       align-items: center
       flex-direction: column
-      +size(70%)
+      +size(100%)
+      transform: scale(0.7)
       visibility: hidden
       transition: 300ms all ease-in-out
       background: rgba(black, 0.4)
       &.visible
-        +size(100%)
+        transform: scale(1)
         visibility: visible
       .view
         margin-top: 50px
