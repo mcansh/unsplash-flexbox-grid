@@ -8,8 +8,11 @@
 body
   font-family: "Roboto"
   background: black
-  -webkit-scroll-snap-type: mandatory
-  -webkit-scroll-snap-points-y: repeat(33vh)
+  @supports (webkit-scroll-snap-type: normal) and (scroll-snap-type: normal)
+    -webkit-scroll-snap-type: mandatory
+    webkit-scroll-snap-type: mandatory
+    -webkit-scroll-snap-points-y: repeat(33vh)
+    webkit-scroll-snap-points-y: repeat(33vh)
 
 #loading
   height: 100vh
