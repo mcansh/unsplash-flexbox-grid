@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unsplash Flexbox Grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="description">
+    <meta name="keywords" content="keywords">
+    <meta name="author" content="Logan McAnsh">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" href="assets/img/unsplash-favicon.ico">
+    <link rel="mask-icon" href="assets/img/unsplash.svg" color="#000000">
+    <!-- Apple Touch Icons-->
+    <link rel="shortcut icon" href="assets/img/unsplash-favicon-32.png" sizes="32x32">
+    <link rel="apple-touch-icon-precomposed" sizes="228x228" href="assets/img/unsplash-favicon-228.png">
+    <link rel="apple-touch-icon-precomposed" sizes="195x195" href="assets/img/unsplash-favicon-195.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/unsplash-favicon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/unsplash-favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="assets/img/unsplash-favicon-128.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/unsplash-favicon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="96x96" href="assets/img/unsplash-favicon-96.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/unsplash-favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/unsplash-favicon-57.png">
+    <!-- Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@logansmcansh">
+    <meta name="twitter:creator" content="@logansmcansh">
+    <meta name="twitter:title" content="Unsplash Flexbox Grid">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <!-- Open Graph-->
+    <meta property="og:title" content="Unsplash Flexbox Grid">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="104px" height="90px" viewBox="0 0 104 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Unsplash</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="365-photos-later" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)" fill="#000000">
+            <path d="M51.2,36.1 C42.7,36.1 35.7,43 35.7,51.6 C35.7,60.2 42.7,67 51.2,67 C59.7,67 66.7,60.1 66.7,51.5 C66.7,42.9 59.8,36.1 51.2,36.1 L51.2,36.1 Z M89,13.7 L77,13.7 L74.3,6.4 C72.9,2.9 68.7,0 65,0 L37.5,0 C33.7,0 29.6,2.9 28.2,6.4 L25.5,13.7 L13.5,13.7 C5.9,13.7 -0.2,19.9 -0.2,27.4 L-0.2,75.5 C-0.2,83.1 6,89.2 13.5,89.2 L89,89.2 C96.6,89.2 102.7,83 102.7,75.5 L102.7,27.5 C102.8,19.9 96.6,13.7 89,13.7 L89,13.7 Z M51.2,75.6 C37.9,75.6 27.2,64.8 27.2,51.6 C27.2,38.4 38,27.6 51.2,27.6 C64.5,27.6 75.2,38.4 75.2,51.6 C75.2,64.8 64.5,75.6 51.2,75.6 L51.2,75.6 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
+      </div><a href="https://github.com/mcansh/">View on GitHub</a>
+    </nav>
+    <div id="loading">Loading Images...</div>
+    <div class="content-wrapper"></div>
+    <template id="image-template">
+      <div class="unsplash-image-wrapper">
+        <div style="background-image: url({{urls.regular}})" class="unsplash-image">
+          <div class="photo-info">
+            <h1> <a href="{{links.html}}">{{user.username}}</a></h1>
+            <p>{{user.location}}</p>
+            <div class="view"><a href="https://unsplash.com/photos/{{id}}" target="_blank">View Photo on Unsplash</a></div>
+          </div>
+        </div>
+      </div>
+    </template>
+    <script src="assets/scripts/jquery-3.1.1.min.js"></script>
+    <script src="assets/scripts/mustache.min.js"></script>
+    <script async src="assets/scripts/main.min.js"></script>
+  </body>
+</html>

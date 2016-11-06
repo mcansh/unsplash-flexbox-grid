@@ -1,0 +1,71 @@
+doctype html
+html(lang="en")
+  head
+    title Unsplash Flexbox Grid
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content="description")
+    meta(name="keywords", content="keywords")
+    meta(name="author", content="Logan McAnsh")
+    link(rel="stylesheet", href="assets/css/style.css")
+    meta(name="theme-color", content="#000000")
+    link(rel="shortcut icon" href="assets/img/unsplash-favicon.ico")
+    link(rel="mask-icon" href="assets/img/unsplash.svg" color="#000000")
+    // Apple Touch Icons
+    link(rel="shortcut icon" href="assets/img/unsplash-favicon-32.png" sizes="32x32")
+    link(rel="apple-touch-icon-precomposed" sizes="228x228" href="assets/img/unsplash-favicon-228.png")
+    link(rel="apple-touch-icon-precomposed" sizes="195x195" href="assets/img/unsplash-favicon-195.png")
+    link(rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/unsplash-favicon-152.png")
+    link(rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/unsplash-favicon-144.png")
+    link(rel="apple-touch-icon-precomposed" sizes="128x128" href="assets/img/unsplash-favicon-128.png")
+    link(rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/unsplash-favicon-120.png")
+    link(rel="apple-touch-icon-precomposed" sizes="96x96" href="assets/img/unsplash-favicon-96.png")
+    link(rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/unsplash-favicon-72.png")
+    link(rel="apple-touch-icon-precomposed" href="assets/img/unsplash-favicon-57.png")
+    
+    
+    // Twitter Card
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content="@logansmcansh")
+    meta(name="twitter:creator" content="@logansmcansh")
+    meta(name="twitter:title" content="Unsplash Flexbox Grid")
+    meta(name="twitter:description" content="")
+    meta(name="twitter:image" content="")
+
+    // Open Graph
+    meta(property="og:title" content="Unsplash Flexbox Grid")
+    meta(property="og:type" content="website")
+    meta(property="og:url" content="")
+    meta(property="og:image" content="")
+    meta(property="og:description" content="")
+  
+  
+  body
+  
+    nav
+      .logo
+        //- img(src="assets/img/unsplash.png" srcset="assets/img/unsplash@2x.png 2x, assets/img/unsplash@3x.png 3x")
+        include assets/img/unsplash.svg
+        
+      a(href="https://github.com/mcansh/") View on GitHub
+        
+        
+        
+    #loading Loading Images...
+    .content-wrapper
+
+
+    template#image-template
+      .unsplash-image-wrapper
+        .unsplash-image(style="background-image: url({{urls.regular}})")
+          .photo-info
+            h1 
+              a(href="{{links.html}}") {{user.username}}
+            p {{user.location}}
+            
+            .view
+              a(href="https://unsplash.com/photos/{{id}}" target="_blank") View Photo on Unsplash
+        
+    script(src="assets/scripts/jquery-3.1.1.min.js")
+    script(src="assets/scripts/mustache.min.js")
+    script(async src="assets/scripts/main.min.js")
