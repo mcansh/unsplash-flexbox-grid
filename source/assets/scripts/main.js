@@ -1,4 +1,4 @@
-const authToken = '551c50eda7975cf9ef9aaa4e043667f7566231fb7f09992b748630f2bfd81e8b';
+const authToken = 'c3afc03ed46432d238b22900dc53d153df82bd53b153ac7d619d5b61c9538533';
 const url = 'https://api.unsplash.com/photos/?client_id=' + authToken;
 const content_wrapper = $('.content-wrapper');
 const imageTemplate = $('#image-template').html();
