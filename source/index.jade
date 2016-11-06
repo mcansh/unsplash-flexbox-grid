@@ -53,18 +53,21 @@ html(lang="en")
         
     #loading Loading Images...
     .content-wrapper
+    .overlay
 
 
     template#image-template
       .unsplash-image-wrapper
         .unsplash-image(style="background-image: url({{urls.regular}})")
-          .photo-info
-            h1 
-              a(href="{{user.links.html}}") {{user.username}}
-            p {{user.location}}
-            
-            .view
-              a(href="https://unsplash.com/photos/{{id}}" target="_blank") View Photo on Unsplash
+          
+          
+    //- .photo-info
+      h1 
+        a(href="{{user.links.html}}") {{user.username}}
+      p {{user.location}}
+      
+      .view
+        a(href="https://unsplash.com/photos/{{id}}" target="_blank") View Photo on Unsplash
         
     script(src="assets/scripts/jquery-3.1.1.min.js")
     script(src="assets/scripts/mustache.min.js")

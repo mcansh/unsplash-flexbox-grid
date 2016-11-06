@@ -53,15 +53,10 @@
     </nav>
     <div id="loading">Loading Images...</div>
     <div class="content-wrapper"></div>
+    <div class="overlay"></div>
     <template id="image-template">
       <div class="unsplash-image-wrapper">
-        <div style="background-image: url({{urls.regular}})" class="unsplash-image">
-          <div class="photo-info">
-            <h1> <a href="{{user.links.html}}">{{user.username}}</a></h1>
-            <p>{{user.location}}</p>
-            <div class="view"><a href="https://unsplash.com/photos/{{id}}" target="_blank">View Photo on Unsplash</a></div>
-          </div>
-        </div>
+        <div style="background-image: url({{urls.regular}})" class="unsplash-image"></div>
       </div>
     </template>
     <script src="assets/scripts/jquery-3.1.1.min.js"></script>

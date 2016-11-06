@@ -1503,7 +1503,7 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "$, jQuery",
+	"jsCheckerReservedNamesString": "$, jQuery, Mustache",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

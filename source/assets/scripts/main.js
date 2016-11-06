@@ -1,9 +1,10 @@
-const url = 'https://api.unsplash.com/photos/?client_id=c3afc03ed46432d238b22900dc53d153df82bd53b153ac7d619d5b61c9538533';
-let images = $('.content-wrapper');
-let imageTemplate = $('#image-template').html();
+const authToken = '551c50eda7975cf9ef9aaa4e043667f7566231fb7f09992b748630f2bfd81e8b';
+const url = 'https://api.unsplash.com/photos/?client_id=' + authToken;
+const content_wrapper = $('.content-wrapper');
+const imageTemplate = $('#image-template').html();
 
 function addImage(image) {
-  images.append(Mustache.render(imageTemplate, image));
+  content_wrapper.append(Mustache.render(imageTemplate, image));
 }
 
 $.ajax({
@@ -12,6 +13,7 @@ $.ajax({
   success: function(images){
     $.each(images, function(i, image){
       $('#loading').fadeOut(300);
+      content_wrapper.addClass('initialized');
       addImage(image);
     });
     /* eslint-disable */
@@ -23,4 +25,13 @@ $.ajax({
     console.log('Error loading images, please refresh and try again');
     /* eslint-disable */
   }
+});
+
+// $('body').on('click', '.unsplash-image-wrapper', function(){
+//   $('.overlay').toggleClass('is-visible');
+// });
+
+
+$('body').on('click','.unsplash-image-wrapper',function(){
+    alert("success");
 });
