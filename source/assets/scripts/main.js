@@ -26,12 +26,3 @@ $.ajax({
     /* eslint-disable */
   }
 });
-
-// $('body').on('click', '.unsplash-image-wrapper', function(){
-//   $('.overlay').toggleClass('is-visible');
-// });
-
-
-$('body').on('click','.unsplash-image-wrapper',function(){
-    alert("success");
-});
