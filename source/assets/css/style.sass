@@ -32,11 +32,11 @@ nav
   width: 100vw
   .logo
     height: 50%
-    // width: auto
+    width: 40px
     flex-grow: 1
     svg
       height: 100%
-      width: auto
+      width: 40px
       path
         fill: white
 
@@ -74,12 +74,12 @@ nav
       align-items: center
       flex-direction: column
       +size(70%)
-      opacity: 0
+      visibility: hidden
       transition: 300ms all ease-in-out
       background: rgba(black, 0.4)
       &.visible
         +size(100%)
-        opacity: 1
+        visibility: visible
       .view
         margin-top: 50px
       h1

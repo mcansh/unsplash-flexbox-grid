@@ -14,8 +14,13 @@ $.ajax({
       $('#loading').fadeOut(300);
       addImage(image);
     });
+    /* eslint-disable */
+    console.log('Everythings working great!');
+    /* eslint-disable */
   },
   error: function(){
-    alert('Error loading images, please refresh and try again');
+    /* eslint-disable */
+    console.log('Error loading images, please refresh and try again');
+    /* eslint-disable */
   }
 });

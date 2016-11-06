@@ -9,10 +9,10 @@
 	],
 "creatorBuild": "25390",
 "files": {
-	"\/build": {
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/source\/assets\/css\/style.sass": {
@@ -23,7 +23,7 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/build\/assets\/css\/style.css",
+		"oAP": "\/docs\/assets\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -32,7 +32,7 @@
 		"ft": 32768,
 		"iS": 1650,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-120.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-120.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -40,7 +40,7 @@
 		"ft": 32768,
 		"iS": 1809,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-128.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-128.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -48,7 +48,7 @@
 		"ft": 32768,
 		"iS": 2071,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-144.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-144.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -56,7 +56,7 @@
 		"ft": 32768,
 		"iS": 2179,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-152.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-152.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -64,7 +64,7 @@
 		"ft": 32768,
 		"iS": 3062,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-195.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-195.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -72,7 +72,7 @@
 		"ft": 32768,
 		"iS": 2726,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-228.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-228.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -80,7 +80,7 @@
 		"ft": 32768,
 		"iS": 469,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-32.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-32.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -88,7 +88,7 @@
 		"ft": 32768,
 		"iS": 776,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-57.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-57.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -96,7 +96,7 @@
 		"ft": 32768,
 		"iS": 937,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-72.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-72.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -104,21 +104,21 @@
 		"ft": 32768,
 		"iS": 1320,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon-96.png",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon-96.png",
 		"oF": 0,
 		"opt": 1
 		},
 	"\/source\/assets\/img\/unsplash-favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/unsplash-favicon.ico",
+		"oAP": "\/docs\/assets\/img\/unsplash-favicon.ico",
 		"oF": 0
 		},
 	"\/source\/assets\/img\/unsplash.png": {
 		"ft": 32768,
 		"iS": 2106,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash.png",
+		"oAP": "\/docs\/assets\/img\/unsplash.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -126,7 +126,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/build\/assets\/img\/unsplash.svg",
+		"oAP": "\/docs\/assets\/img\/unsplash.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -136,7 +136,7 @@
 		"ft": 32768,
 		"iS": 4914,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash@2x.png",
+		"oAP": "\/docs\/assets\/img\/unsplash@2x.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -144,7 +144,7 @@
 		"ft": 32768,
 		"iS": 8429,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/unsplash@3x.png",
+		"oAP": "\/docs\/assets\/img\/unsplash@3x.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -152,7 +152,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/build\/assets\/scripts\/jquery-3.1.1.min.js",
+		"oAP": "\/docs\/assets\/scripts\/jquery-3.1.1.min.js",
 		"oF": 3,
 		"sC": 3,
 		"tS": 1
@@ -161,7 +161,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/assets\/scripts\/main.min.js",
+		"oAP": "\/docs\/assets\/scripts\/main.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -170,7 +170,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/build\/assets\/scripts\/mustache.min.js",
+		"oAP": "\/docs\/assets\/scripts\/mustache.min.js",
 		"oF": 3,
 		"sC": 3,
 		"tS": 1
@@ -179,7 +179,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
+		"oAP": "\/docs\/index.html",
 		"oF": 0,
 		"oS": 0
 		}
@@ -193,7 +193,7 @@
 	"displayValue": "Unplsash",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 500144658
+	"lastBuiltDate": 500153712
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -446,7 +446,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "build",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2250,7 +2250,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }

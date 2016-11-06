@@ -30,10 +30,11 @@ nav {
   width: 100vw; }
   nav .logo {
     height: 50%;
+    width: 40px;
     flex-grow: 1; }
     nav .logo svg {
       height: 100%;
-      width: auto; }
+      width: 40px; }
       nav .logo svg path {
         fill: white; }
 
@@ -75,13 +76,13 @@ nav {
       flex-direction: column;
       height: 70%;
       width: 70%;
-      opacity: 0;
+      visibility: hidden;
       transition: 300ms all ease-in-out;
       background: rgba(0, 0, 0, 0.4); }
       .unsplash-image-wrapper .unsplash-image .photo-info.visible {
         height: 100%;
         width: 100%;
-        opacity: 1; }
+        visibility: visible; }
       .unsplash-image-wrapper .unsplash-image .photo-info .view {
         margin-top: 50px; }
       .unsplash-image-wrapper .unsplash-image .photo-info h1 {
