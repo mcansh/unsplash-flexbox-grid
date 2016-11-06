@@ -49,9 +49,7 @@ nav {
   transition: 300ms all ease-in-out; }
   @media (max-width: 1000px) {
     .unsplash-image-wrapper {
-      width: 50vw; }
-      .unsplash-image-wrapper:nth-child(3) {
-        order: 1; } }
+      width: 50vw; } }
   @media (max-width: 450px) {
     .unsplash-image-wrapper {
       width: 100vw; } }
@@ -67,7 +65,7 @@ nav {
     .unsplash-image-wrapper .unsplash-image:hover .photo-info {
       height: 100%;
       width: 100%;
-      opacity: 1; }
+      visibility: visible; }
     .unsplash-image-wrapper .unsplash-image .photo-info {
       color: white;
       display: flex;
