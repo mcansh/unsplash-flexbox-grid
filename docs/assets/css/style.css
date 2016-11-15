@@ -95,7 +95,8 @@ nav {
         transform: scale(1);
         visibility: visible; }
       .unsplash-image-wrapper .unsplash-image .photo-info .view {
-        margin-top: 50px; }
+        position: absolute;
+        bottom: 15px; }
       .unsplash-image-wrapper .unsplash-image .photo-info h1 {
         margin-bottom: 10px; }
 
