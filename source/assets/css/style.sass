@@ -8,11 +8,11 @@
 body
   font-family: "Open Sans"
   background: black
-  @supports (webkit-scroll-snap-type: normal) or (scroll-snap-type: normal)
+  @supports (-webkit-scroll-snap-type: none) or (scroll-snap-type: none)
     -webkit-scroll-snap-type: mandatory
     webkit-scroll-snap-type: mandatory
-    -webkit-scroll-snap-points-y: repeat(33vh)
-    webkit-scroll-snap-points-y: repeat(33vh)
+    -webkit-scroll-snap-points-y: repeat(calc(100vh / 3))
+    webkit-scroll-snap-points-y: repeat(calc(100vh / 3))
 
 #loading
   height: 100vh

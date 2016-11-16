@@ -1,5 +1,8 @@
 const authToken = 'c3afc03ed46432d238b22900dc53d153df82bd53b153ac7d619d5b61c9538533';
-const url = 'https://api.unsplash.com/photos/?client_id=' + authToken;
+let pageNumber = 1;
+let amountPerPage = 30;
+let order = 'latest';
+const url = `https://api.unsplash.com/photos?page=${pageNumber}&per_page=${amountPerPage}&order_by=${order}&client_id=${authToken}`;
 const content_wrapper = $('.content-wrapper');
 const imageTemplate = $('#image-template').html();
 
@@ -22,7 +25,7 @@ $.ajax({
   },
   error: function(){
     /* eslint-disable */
-    console.log('Error loading images, please refresh and try again');
+    console.log('Error loading images, please refresh and try again.');
     /* eslint-disable */
   }
 });
