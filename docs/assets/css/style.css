@@ -33,7 +33,7 @@ nav {
   left: 0;
   width: 100vw;
   background: black; }
-  @supports (-webkit-backdrop-filter: normal) and (backdrop-filter: normal) {
+  @supports (-webkit-backdrop-filter: none) and (backdrop-filter: none) {
     nav {
       background: rgba(0, 0, 0, 0.4);
       -webkit-backdrop-filter: blur(10px);
@@ -96,7 +96,9 @@ nav {
         visibility: visible; }
       .unsplash-image-wrapper .unsplash-image .photo-info .view {
         position: absolute;
-        bottom: 15px; }
+        bottom: 15px;
+        width: 100%;
+        text-align: center; }
       .unsplash-image-wrapper .unsplash-image .photo-info h1 {
         margin-bottom: 10px; }
 
