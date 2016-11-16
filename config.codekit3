@@ -179,15 +179,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/source\/assets\/scripts\/jquery-3.1.1.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/docs\/assets\/scripts\/jquery-3.1.1.min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/source\/assets\/scripts\/main.js": {
 		"ft": 64,
 		"mi": 1,
@@ -224,7 +215,7 @@
 	"displayValue": "Unsplash Flexbox Grid",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 500273399
+	"lastBuiltDate": 500955124
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

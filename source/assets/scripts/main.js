@@ -1,3 +1,6 @@
+// @codekit-prepend 'jquery-3.1.1.min.js';
+
+
 const authToken = 'c3afc03ed46432d238b22900dc53d153df82bd53b153ac7d619d5b61c9538533';
 let pageNumber = 1;
 let amountPerPage = 30;
