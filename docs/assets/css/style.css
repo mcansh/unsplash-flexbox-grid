@@ -6,7 +6,7 @@
 body {
   font-family: "Open Sans";
   background: black; }
-  @supports (webkit-scroll-snap-type: normal) and (scroll-snap-type: normal) {
+  @supports (webkit-scroll-snap-type: normal) or (scroll-snap-type: normal) {
     body {
       -webkit-scroll-snap-type: mandatory;
       webkit-scroll-snap-type: mandatory;
