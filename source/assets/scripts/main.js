@@ -32,3 +32,24 @@ $.ajax({
     /* eslint-disable */
   }
 });
+
+
+$(window).scroll(function(){
+  $('.unsplash-image-wrapper').slice(9).each(function(i){
+
+    var bottom_of_object = $(this).position().top + $(this).outerHeight();
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+    bottom_of_window = bottom_of_window + 200;
+
+    if (bottom_of_window > bottom_of_object) {
+      if ((i + 1) % 2 === 0) {
+        $(this).addClass('visible-2');
+      }
+      else if ((i + 2) % 2 === 0) {
+        $(this).addClass('visible');
+      }
+    }
+  });
+});
