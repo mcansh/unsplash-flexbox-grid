@@ -1,7 +1,14 @@
 // @codekit-prepend 'jquery-3.1.1.min.js';
+// @codekit-prepend 'tokens.js';
+let consoleStyles = [
+  'color: white',
+  'display: block',
+  'font-size: 30px',
+  'line-height: 35px',
+  'text-align: center',
+  'font-family: OperatorMono-bold, avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+].join(';');
 
-
-const authToken = 'c3afc03ed46432d238b22900dc53d153df82bd53b153ac7d619d5b61c9538533';
 let pageNumber = 1;
 let amountPerPage = 30;
 let order = 'latest';
@@ -13,6 +20,7 @@ function addImage(image) {
   content_wrapper.append(Mustache.render(imageTemplate, image));
 }
 
+
 $.ajax({
   type: 'GET',
   url: url,
@@ -23,7 +31,7 @@ $.ajax({
       addImage(image);
     });
     /* eslint-disable */
-    console.log('Everythings working great!');
+    console.log('%c Everythings working great!', consoleStyles);
     /* eslint-disable */
   },
   error: function(){

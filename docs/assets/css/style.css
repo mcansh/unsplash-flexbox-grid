@@ -143,4 +143,16 @@ a {
     opacity: 1;
     transform: translateY(0px); } }
 
+footer {
+  height: 5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  footer p {
+    margin-bottom: 5px; }
+    footer p:nth-of-type(n+2) {
+      color: rgba(255, 255, 255, 0.84); }
+
 /*# sourceMappingURL=style.css.map */

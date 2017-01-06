@@ -22,8 +22,8 @@ html(lang="en")
     link(rel="apple-touch-icon-precomposed" sizes="96x96" href="assets/img/unsplash-favicon-96.png")
     link(rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/unsplash-favicon-72.png")
     link(rel="apple-touch-icon-precomposed" href="assets/img/unsplash-favicon-57.png")
-    
-    
+
+
     // Twitter Card
     meta(name="twitter:card" content="summary")
     meta(name="twitter:site" content="@logansmcansh")
@@ -38,33 +38,39 @@ html(lang="en")
     meta(property="og:url" content="https://mcansh.github.io/unsplash-flexbox-grid/")
     meta(property="og:image" content="https://mcansh.github.io/unsplash-flexbox-grid/assets/img/unsplash.png")
     meta(property="og:description" content="Unsplash Flexbox Grid")
-  
-  
+
+
   body
-  
+
     nav
       .logo
         include assets/img/unsplash.svg
-        
+
       a(href="https://github.com/mcansh/unsplash-flexbox-grid") View on GitHub
-        
-        
-        
+
+
+
     #loading Loading Images...
     .content-wrapper
     .overlay
+    
+    footer
+      p &copy; 2017 Logan McAnsh
+      p Not affiliated with Unsplash
+      p All photo credit goes to the photography
 
 
     template#image-template
       .unsplash-image-wrapper
         .unsplash-image(style="background-image: url({{urls.regular}})")
           .photo-info
-            h1 
+            h1
               a(href="{{user.links.html}}") {{user.username}}
             p {{user.location}}
-            
+
             .view
               a(href="https://unsplash.com/photos/{{id}}" target="_blank") View Photo on Unsplash
-        
+
+
     script(async src="assets/scripts/main.min.js")
     script(async src="assets/scripts/mustache.min.js")

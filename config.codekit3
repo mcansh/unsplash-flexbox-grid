@@ -7,7 +7,7 @@
 		"uuidString": "0DB21551-8319-48AB-AE0A-84857C88F413"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -38,6 +38,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/source\/assets\/css\/_footer.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/source\/assets\/css\/_nav.sass": {
 		"aP": 0,
@@ -187,7 +200,7 @@
 		},
 	"\/source\/assets\/scripts\/main.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/docs\/assets\/scripts\/main.min.js",
 		"oF": 0,
@@ -200,6 +213,15 @@
 		"oA": 2,
 		"oAP": "\/docs\/assets\/scripts\/mustache.min.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/source\/assets\/scripts\/tokens.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/docs\/assets\/scripts\/tokens.min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
@@ -665,6 +687,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -828,6 +854,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1193,6 +1223,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1424,6 +1458,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2257,6 +2295,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

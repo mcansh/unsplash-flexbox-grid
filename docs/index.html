@@ -54,11 +54,16 @@
     <div id="loading">Loading Images...</div>
     <div class="content-wrapper"></div>
     <div class="overlay"></div>
+    <footer>
+      <p>&copy; 2017 Logan McAnsh</p>
+      <p>Not affiliated with Unsplash</p>
+      <p>All photo credit goes to the photography</p>
+    </footer>
     <template id="image-template">
       <div class="unsplash-image-wrapper">
         <div style="background-image: url({{urls.regular}})" class="unsplash-image">
           <div class="photo-info">
-            <h1> <a href="{{user.links.html}}">{{user.username}}</a></h1>
+            <h1><a href="{{user.links.html}}">{{user.username}}</a></h1>
             <p>{{user.location}}</p>
             <div class="view"><a href="https://unsplash.com/photos/{{id}}" target="_blank">View Photo on Unsplash</a></div>
           </div>
