@@ -144,12 +144,13 @@ a {
     transform: translateY(0px); } }
 
 footer {
-  height: 5em;
+  min-height: 5em;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 20px 0; }
   footer p {
     margin-bottom: 5px; }
     footer p:nth-of-type(n+2) {
